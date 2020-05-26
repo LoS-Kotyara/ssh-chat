@@ -1,0 +1,42 @@
+MOTD: |
+  {blue-bg}{white-fg}{bold}Welcome to SSH Chat!{/}
+  /quit - to exit the chat.
+  /help - for helps.
+  /color - for change color your nick
+  /me - write in the third person
+
+help: |
+  /quit - to exit the chat.
+  /help - for helps.
+  /color - for change color your nick
+  /me - write in the third person
+
+
+third_person: |
+  {yellow-fg}* {bold}%user%{/bold} %msg%{/}
+
+connect: |
+  {green-fg}*** {bold}%user%{/bold} has joined the chat{/}
+
+disconnect: |
+  {red-fg}*** {bold}%user%{/bold} has left the chat{/}
+
+msg: |
+  [%time%] {#%color_user%-fg}{bold}%user%{/}: %msg%
+
+newDay: |
+  {blue-bg}{bold}%date%{/}
+
+status: |
+  {black-fg}[Online: %count_user%]{/}
+
+
+prompt:
+  name: |
+    Enter a nickname to use (max %maxlen% chars):
+  name_use: |
+    That nickname is already in use.
+  name_null: |
+    A nickname is required.
+  name_long: |
+    That nickname is too long.
