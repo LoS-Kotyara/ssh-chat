@@ -17,5 +17,4 @@ module.exports = (userData) => {
 		_user.window.screen.render();
 	});
 	userData.window.screen.render();
-
 }

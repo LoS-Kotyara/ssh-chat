@@ -22,6 +22,5 @@ module.exports = screen => {
 	});
 
 	screen.append(list);
-	//Users.forEach(user => user.name === screen.userData.name ? list.add(user.name) : false);
 	return list;
 }

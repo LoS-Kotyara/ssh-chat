@@ -11,6 +11,7 @@
   "dependencies": {
     "blessed": "^0.1.81",
     "datejs": "^1.0.0-rc3",
+    "eslint": "^7.1.0",
     "glob": "^7.1.2",
     "mag": "^0.9.1",
     "node-ssh": "^5.1.1",
